@@ -5,5 +5,5 @@ gunicorn
 numpy
 pandas
 requests
-whois
+python-whois
 
