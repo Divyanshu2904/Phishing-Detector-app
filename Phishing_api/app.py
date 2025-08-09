@@ -1,7 +1,8 @@
 # app.py
 from flask import Flask, request, jsonify
 import joblib
-from feature_extractor import extract_features
+from .feature_extractor import extract_features
+
 
 app = Flask(__name__)
 
